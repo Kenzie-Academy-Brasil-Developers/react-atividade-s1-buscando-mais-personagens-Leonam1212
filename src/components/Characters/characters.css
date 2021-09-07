@@ -1,0 +1,25 @@
+main {
+  font-family:'Courier New', Courier, monospace;
+  color: #fff;
+  
+
+}
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+  
+ 
+}
+
+
+@media only screen and (min-width: 748px){
+  section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly; 
+    width: 60%;
+    margin: 0 auto;
+  }
+}
